@@ -1,0 +1,74 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding:0;
+}
+header{
+	
+	font-family: 'Roboto Mono', monospace;
+	background:black;
+	color:white;
+	height: 56px;
+	
+}
+header ul {
+	display:flex;
+	justify-content: space-around;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	align-items: stretch;
+}
+
+h1{
+	font-family: 'Roboto Mono', monospace;
+
+}
+
+h2{
+	font-family: 'Roboto Mono', monospace;
+}
+
+p{
+	font-family: 'Noto Sans JP', sans-serif;
+	background-color:#F7E6E6;
+}
+
+.bio{
+	font-family: 'Noto Sans JP', sans-serif;
+	width:50%;
+	box-shadow: 30px 30px #E0363B;
+	font-size: 22px;
+	margin-left: 40%
+
+}
+.noacf, .abiior, .iliwys, .live-album, .self-titled{
+	width: 300px;
+}
+
+footer{
+	background-color:#F0F74F;
+}
+.image1{
+	width: 40%;
+}
+.image3{
+	width:10%;
+
+}
+.tourimage{
+	width:100%;
+	filter: grayscale(100%);
+}
+.mattyimage{
+	width:100%;
+	filter: grayscale(100%); 
+}
+.notesimage{
+	display: hidden;
+}
+
+
